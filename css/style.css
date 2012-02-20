@@ -90,6 +90,10 @@ body {
 	font-family: 'IM Fell DW Pica', serif;
 }
 
+h1 {
+	font-weight: normal;
+}
+
 .container {
 	margin: 20px;
 }
@@ -109,8 +113,8 @@ body {
 	padding: 0.5em 0.5em;
 	margin: 0.3em;
 /*	background: #ddd;*/
-	float: left;
-	clear: left;
+/*	float: left;
+	clear: left;*/
 }
 .some-links li:hover {
 /*	background: #888*/
@@ -122,21 +126,32 @@ body {
 
 .footer {
 	font-size:  100% ;
-	float: left;
-	clear: left;
+/*	float: left;
+	clear: left;*/
 	margin-top: 20px;
 }
 
 a:link,
 a:visited {
 	color: #64666d;
-	text-decoration: none;
-	border-bottom: 1px solid #64666d;
 }
 a:hover,
 a:active {
 	color: #f34214;
+}
+
+.some-links a:link,
+.some-links a:visited {
+	text-decoration: none;
+	border-bottom: 1px solid #64666d;
+}
+.some-links a:hover,
+.some-links a:active {
 	border-bottom-color: #f34214;
+}
+
+.clearleft {
+/*	clear: left;*/
 }
 
 
