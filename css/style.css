@@ -138,6 +138,12 @@ a:hover {
 	border-bottom-color: #f34214;
 }
 
+a:visited {
+	color: #64666d;
+	text-decoration: none;
+	border-bottom: 1px solid #64666d;
+}
+
 /* @end */
 
 
