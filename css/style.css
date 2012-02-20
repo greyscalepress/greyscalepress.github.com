@@ -127,22 +127,18 @@ body {
 	margin-top: 20px;
 }
 
-a {
-	color: #64666d;
-	text-decoration: none;
-	border-bottom: 1px solid #64666d;
-}
-
-a:hover {
-	color: #f34214;
-	border-bottom-color: #f34214;
-}
-
+a:link,
 a:visited {
 	color: #64666d;
 	text-decoration: none;
 	border-bottom: 1px solid #64666d;
 }
+a:hover,
+a:active {
+	color: #f34214;
+	border-bottom-color: #f34214;
+}
+
 
 /* @end */
 
