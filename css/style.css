@@ -11,8 +11,8 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #fff; color: #000; text-shadow: none; }
+::selection { background: #fff; color: #000; text-shadow: none; }
 
 a { color: #00e; }
 a:visited { color: #551a8b; }
@@ -83,18 +83,62 @@ td { vertical-align: top; }
 
 /* @end */
 
+/* @group Custom */
+
 body {
 	background-color: #efefef;
+	font-family: 'IM Fell DW Pica', serif;
 }
 
 .container {
 	margin: 20px;
 }
 
-ul.clean {
+.medium {
+	font-size: 120%;
+}
+
+.some-links {
 	list-style: none;
 	list-style-image: none;
+	margin-left: 0px;
+	padding-left: 0em;
 }
+
+.some-links li {
+	padding: 0.5em 0.5em;
+	margin: 0.3em;
+/*	background: #ddd;*/
+	float: left;
+	clear: left;
+}
+.some-links li:hover {
+/*	background: #888*/
+}
+
+.some-links a {
+	margin-left: 0.5em;
+}
+
+.footer {
+	font-size:  100% ;
+	float: left;
+	clear: left;
+	margin-top: 20px;
+}
+
+a {
+	color: #64666d;
+	text-decoration: none;
+	border-bottom: 1px solid #64666d;
+}
+
+a:hover {
+	color: #f34214;
+	border-bottom-color: #f34214;
+}
+
+/* @end */
 
 
 
